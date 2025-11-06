@@ -15,22 +15,14 @@ public class Cheers {
                 int i = 0;
 
                 String spl = "AEFHILMNORSX";
-                               
-                char firstletter = textUpp.charAt(0);
-                /*
-                if (spl.indexOf(firstletter) == -1) {
-                        System.out.print("Give me a ");
-                } else {
-                        System.out.print("Give me an ");
-                }
-
-                */
+ 
                 while (i != x) {
-                                        if (spl.indexOf(firstletter) == -1) {
+                        char letter = textUpp.charAt(i);
+                        if (spl.indexOf(letter) == -1) {
                         System.out.print("Give me a ");
-                } else {
+                        } else {
                         System.out.print("Give me an ");
-                }
+                        }
 
                         System.out.println(textUpp.charAt(i) + ": " +
                         textUpp.charAt(i) + "!");

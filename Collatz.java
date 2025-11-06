@@ -10,7 +10,7 @@ public class Collatz {
 			for (int t = 2; t <= N; t++) {
 				System.out.print(t + " ");	
 				int x = t;
-				int i = 0;
+				int i = 1;
 						
 				while (x != 1) {			
 					if (x % 2 == 0) {				
