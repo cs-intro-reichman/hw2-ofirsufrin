@@ -19,7 +19,7 @@ public class Cheers {
                 while (i != x) {
                         char letter = textUpp.charAt(i);
                         if (spl.indexOf(letter) == -1) {
-                        System.out.print("Give me a ");
+                        System.out.print("Give me a  ");
                         } else {
                         System.out.print("Give me an ");
                         }
